@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="341dp"
+        android:layout_height="339dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/log"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <Button
+        android:id="@+id/regButton"
+        android:layout_width="326dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_button"
+        android:text="Buat Akun"
+        android:textColor="#00A8DE"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/logButton"
+        android:layout_width="326dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_button"
+        android:text="Masuk"
+        android:textColor="#00A8DE"
+        android:textSize="20dp" />
+
+</LinearLayout>
